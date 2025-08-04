@@ -39,12 +39,25 @@ A simple and effective tool to assess the strength of passwords based on key sec
 
 ---
 
-## 💻 Usage & Setup
+## 💻 Installation
 
-### ▶️ Installation & Running
-
-1. **Clone the repository**
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/password-strength-checker.git
 cd password-strength-checker
+
+🖥️ Example Output
+$ python password_checker.py
+Enter your password: My$ecur3Pass
+Password strength: Very Strong (Score: 5/5)
+
+
+🗂️ Project Structure
+password-strength-checker/
+│
+├── password_checker.py       # Main script for checking password strength
+├── README.md                 # Project documentation
+├── requirements.txt          # Dependencies (if any)
+├── assets/                   # Screenshots or other assets
+└── tests/                    # Unit tests (optional)
