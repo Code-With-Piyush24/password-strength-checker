@@ -1,0 +1,29 @@
+🔐 Password Strength Checker
+
+This is a simple Python script that checks how strong a user's password is based on five common criteria:
+
+1. ✅ Minimum length (8 characters)
+2. 🔠 Contains uppercase letters
+3. 🔡 Contains lowercase letters
+4. 🔢 Contains numbers
+5. 🔣 Contains special characters (e.g. !@#$%)
+
+The script returns:
+- A score out of 5
+- A qualitative strength level (e.g., Very Weak, Medium, Very Strong)
+- Helpful feedback on how to improve the password
+- Suggestions to make the password more secure
+
+💡 Ideal for:
+- Beginners learning Python
+- Anyone wanting a lightweight tool to evaluate password strength
+- Educational or demonstration purposes
+
+Run the script in a terminal or command line, enter a password, and receive instant feedback.
+
+📁 Files:
+- `password_checker.py` — Main script
+- `summary.txt` — Project overview
+
+🛡️ Note:
+This is a basic offline checker and does **not** validate against real-world password breaches or dictionaries. Do not use real passwords when testing.
